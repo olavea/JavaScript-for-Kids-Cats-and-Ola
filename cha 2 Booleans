@@ -1,0 +1,103 @@
+//Booleans
+undefined
+var javascriptIsCool = true:
+javascriptIsCool;
+VM209:2 Uncaught SyntaxError: Unexpected token :(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var javascriptIsCool = true;
+javascriptIsCool;
+true
+var hadShower = true;
+var hasBackpack = true;
+hadShower + hasBackpack;
+
+2
+var hadShower = true;
+var hasBackpack = true;
+hadShower && hasBackpack;
+true
+var hadShower = true;
+var hasBackpack = false;
+hadShower && hasBackpack;
+false
+var hasApple = true;
+var hasOrange = flase;
+VM490:3 Uncaught ReferenceError: flase is not defined(…)(anonymous function) @ VM490:3InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var hasApple = true;
+var hasOrange = false;
+undefined
+var hasApple = true;
+var hasOrange = flase;
+hasApple ‖ hasOrange; 
+VM568:4 Uncaught SyntaxError: Unexpected token ILLEGAL(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var hasApple = true;
+var hasOrange = flase;
+hasApple ‖ hasOrange; 
+VM569:4 Uncaught SyntaxError: Unexpected token ILLEGAL(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+‖
+VM574:2 Uncaught SyntaxError: Unexpected token ILLEGAL(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+|
+VM575:2 Uncaught SyntaxError: Unexpected token |(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+|
+VM576:2 Uncaught SyntaxError: Unexpected token |(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+||
+VM577:2 Uncaught SyntaxError: Unexpected token ||(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var hasApple = true;
+var hasOrange = flase;
+hasApple || hasOrange; 
+VM578:3 Uncaught ReferenceError: flase is not defined(…)(anonymous function) @ VM578:3InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var hasApple = true;
+var hasOrange = false;
+hasApple || hasOrange; 
+VM579:2 Uncaught SyntaxError: Unexpected token ILLEGAL(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var hasApple = true;
+var hasOrange = false;
+hasApple || hasOrange; 
+true
+var isWeekend = true;
+var needToShowerToday = !isWeekend;
+needToShowerToday;
+
+false
+needToShowerToday;
+!needToShowerToday;
+true
+var isWeekend = false;
+var hadShower = true;
+var hasApple = false;
+var hasOrange = true;
+var shouldGoToSchool = !isWeekend && hadShower && (hasApple || hasOrange); 
+shouldGoToSchool;
+
+
+true
+var height = 65;
+var heightRestriction = 60;
+height > heightRestriction;
+
+true
+var height = 60;
+var heightRestriction = 60;
+height > heightRestriction;
+
+true
+true
+var height = 65;
+var heightRestriction = 60;
+height >= heightRestriction;
+
+
+true
+var height = 48;
+var heightRestriction = 60;
+height > heightRestriction;
+
+
+false
+var age=12;
+var accompanied= true;
+undefined
+var myNullVariable = null;
+myNullVariable;
+
+null
