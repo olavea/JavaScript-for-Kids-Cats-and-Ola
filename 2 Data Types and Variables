@@ -1,0 +1,154 @@
+3+4;
+7
+=^.^=
+VM61:2 Uncaught SyntaxError: Unexpected token =(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+=^.^=;
+VM62:2 Uncaught SyntaxError: Unexpected token =(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var drawCats = function (howManyTimes) {
+for (var i = 0; i < howManyTimes; i ++) {
+console.log(i + " =^.^=);
+}
+};
+draCats(10);
+VM343:4 Uncaught SyntaxError: Unexpected token ILLEGAL(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var drawCats = function (howManyTimes) {
+for (var i = 0; i < howManyTimes; i ++) {
+console.log(i + " =^.^=");
+}
+};
+draCats(10);
+VM344:7 Uncaught ReferenceError: draCats is not defined(…)(anonymous function) @ VM344:7InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var drawCats = function (howManyTimes) {
+for (var i = 0; i < howManyTimes; i ++) {
+console.log(i + " =^.^=");
+}
+};
+drawCats(10);
+VM345:4 0 =^.^=
+VM345:4 1 =^.^=
+VM345:4 2 =^.^=
+VM345:4 3 =^.^=
+VM345:4 4 =^.^=
+VM345:4 5 =^.^=
+VM345:4 6 =^.^=
+VM345:4 7 =^.^=
+VM345:4 8 =^.^=
+VM345:4 9 =^.^=
+undefined
+"Hi, I'm a string";
+"Hi, I'm a string"
+true;
+true
+99 * 123
+12177
+"This is a long string" .slice(0, 4);
+"This"
+true && false
+false
+true && false;
+false
+1234+5678;
+6912
+22+33+44;
+99
+1000-17;
+983
+123*456
+56088
+12345/250
+49.38
+1234+57@3-31/4;
+VM797:2 Uncaught SyntaxError: Unexpected token ILLEGAL(…)InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+1234+57*3-31/4;
+1397.25
+8/1+3;
+11
+8/(1+3);
+2
+(15+9)*2;
+48
+var nick;
+undefined
+var age =12;
+undefined
+age;
+12
+age=13;
+13
+var numberOfSiblings = 1 + 2;
+var numberOfCandies = 8;
+numberOfCandies / numberOfSiblings;
+
+2.6666666666666665
+var numberOfSiblings = 1 + 3;
+var numberOfCandies = 8;
+numberOfCandies / numberOfSiblings;
+
+2.6666666666666665
+2.6666666666666665
+var numberOfSiblings = 1 + 3;
+var numberOfCandies = 8;
+numberOfCandies / numberOfSiblings;
+2
+numberOfcandies / numberOfSiblings;
+VM1045:2 Uncaught ReferenceError: numberOfcandies is not defined(…)(anonymous function) @ VM1045:2InjectedScript._evaluateOn @ VM38:878InjectedScript._evaluateAndWrap @ VM38:811InjectedScript.evaluate @ VM38:667
+var secondsInAMinute = 60;
+var MinutesInAnHour = 60;
+var secondsInAHour = secondsInAMinute* MinutesInAnHour;
+secondsInAHour;
+
+3600
+var hoursInADay = 24;
+var secondsInADay = secondsInAHour * hoursInADay
+secondsInADay;
+
+86400
+
+
+var greeting 0 "hello";
+var myName ="Nick";
+greeting + myName;
+VM217:2 Uncaught SyntaxError: Unexpected number(…)InjectedScript._evaluateOn @ VM42:878InjectedScript._evaluateAndWrap @ VM42:811InjectedScript.evaluate @ VM42:667
+var greeting = "hello";
+var myName = "Nick";
+greeting + myName;
+"helloNick"
+var greeting = "hello ";
+var myName ="Nick";
+greeting + myName;
+"hello Nick"
+"suingvnioushfroeoiroerhggoiuerhoeiouerhueuUUoiuh" .length;
+48
+var myName ="Nick";
+undefined
+ar myName ="Nick";
+myName 
+VM568:2 Uncaught SyntaxError: Unexpected identifier(…)InjectedScript._evaluateOn @ VM42:878InjectedScript._evaluateAndWrap @ VM42:811InjectedScript.evaluate @ VM42:667
+var codeWord1 = "are";
+var codeWord2 = "tubas";
+var codeWord3 = "unsafe";
+var codeWord4 = "For work?!";
+codeWord1{1} + codeWord2{1} + codeWord3{1} + codeWord4{1} + ;
+
+
+VM637:6 Uncaught SyntaxError: Unexpected token {(…)InjectedScript._evaluateOn @ VM42:878InjectedScript._evaluateAndWrap @ VM42:811InjectedScript.evaluate @ VM42:667
+var codeWord1 = "are";
+var codeWord2 = "tubas";
+var codeWord3 = "unsafe";
+var codeWord4 = "For work?!";
+codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1] + ; 
+VM642:6 Uncaught SyntaxError: Unexpected token ;(…)InjectedScript._evaluateOn @ VM42:878InjectedScript._evaluateAndWrap @ VM42:811InjectedScript.evaluate @ VM42:667
+var codeWord1 = "are";
+var codeWord2 = "tubas";
+var codeWord3 = "unsafe";
+var codeWord4 = "For work?!";
+codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1]; 
+"runo"
+var longString = "My long string is long";
+longString.slice (3, 14);
+
+"long string"
+var longString = "My long string is long";
+longString.slice (3);
+"long string is long"
+
